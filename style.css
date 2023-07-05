@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+}
+
+.message{
+    font-size: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px ;
+    background: gray;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: black;
+    color: white;
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.inscrire{
+    margin-top: 50px;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 10% 40% 40% 10%;
+    background: blue;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+form {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+}
+
+.inscrire img {
+    padding: 50px 0;
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inscrire .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Connecter{
+        margin-top: 50px;
+        display: grid;
+        width: 80%;
+        grid-template-columns: 10% 40% 40% 10%;
+        background: blue;
+    }
+    
+    form {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Connecter img {
+        padding: 50px 0;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .Connecter .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        
+
